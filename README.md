@@ -3,17 +3,17 @@ Hannah Folk Portfolio
 
 ## Description
 
-This is my responsive version of my web development portfolio. The responsiveness is achieved through Bootstrap. The main components that I used were navbar, forms,image responsiveness, and containers.
+This is my password generator, created using HTML, CSS, Javascript, and Bootstrap.
 
 ## Process
 
-I started out by taking the HTML and CSS from the previous homework and just copying and pasting it into my new repository. Then I added the Bootstrap framework. Starting this way was extremely frustrating because I did not know what Bootstrap was overriding or how to fix what it had changed. Then I just commented out all of my old stuff and started building from scratch again, referring to last week's homework only for colors, fonts, and spacing. Eventually,I managed to find out what Bootstrap was taking over, and learned to build from Bootstrap first, and then adding on my custom CSS later.
+I started out by writing the HTML and CSS and getting the application to look like the class-given image. Then I worked on how to copy to clipboard. Next I jumped around the application, but the basic route was to work on the modal, then validating the modal, then to work on randomly generating a password.
 
-The most frustrating thing on this week's homework was the navigation bar and the responsiveness of it. The breakpoints for 768px and 980px made sense, but the format of the heading changed at 640px, so eventually I decided to use a media query to fix this part of the navigation bar.
+The hardest part was probably validating the modal, and then the next hardest part was working on the logic to get all the criteria in.
 
 ## Credits
 
-I used www.quackit.com for help with creating an external javascript file.
+I used www.w3schools.com for help with Math.random(), addEventListener(), and array methods. I also used https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle#Fisher_and_Yates'_original_method for figuring out how to shuffle my array in the final moments of the application.
 
 ## License
 
