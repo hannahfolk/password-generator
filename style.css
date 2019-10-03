@@ -1,0 +1,72 @@
+body {
+    background-color: rgb(230, 230, 230);
+    padding: 100px;
+}
+
+h1 {
+    text-align: center;
+}
+
+header {
+    margin-bottom: 50px;
+}
+
+.shadow {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+h2 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+hr {
+    border: 1px solid #dddddd;
+    margin: 0;
+}
+
+textarea {
+    border-style: dashed;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: silver;
+    width: 100%;
+    text-align: center;
+    font-family: monospace;
+    font-size: 18px;
+    padding: 10px 0;
+    height: 150px;
+    margin: 10px 15px;
+}
+
+.row {
+    justify-content: center;
+}
+
+.col {
+    text-align: center;
+}
+
+button {
+    margin-top: 20px;
+}
+
+#generate {
+    font-size: 24px;
+    border-radius: 30px;
+    background-color: firebrick;
+}
+
+#copy {
+    font-size: 24px;
+    background-color: silver;
+    border: none;
+    border-radius: 30px;
+}
+
+#invalid-length, #invalid-check {
+    color: red;
+    font-size: 12px;
+}
